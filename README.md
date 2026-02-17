@@ -56,6 +56,7 @@ h_i(k) = \# \{ p_j \neq p_i : (r_{ij}, \theta_{ij}) \in bin(k) \}
 \]
 
 Where:
+
 - \( r_{ij} \) = normalized radial distance
 - \( \theta_{ij} \) = relative angle
 - Log-polar binning ensures scale and rotation sensitivity
@@ -77,3 +78,67 @@ Where:
 git clone https://github.com/YOUR_USERNAME/Shape-Context-Character-Recognition.git
 cd Shape-Context-Character-Recognition
 pip install -r requirements.txt
+```
+
+---
+
+## Usage
+
+### Run Notebook
+
+Open:
+
+```
+notebooks/CV_Lab5_Shape_Context.ipynb
+```
+
+### OR run Python version:
+
+```bash
+python src/shape_context.py
+```
+
+---
+
+## Requirements
+
+- Python 3.9+
+- OpenCV
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Numba (for CUDA)
+- TensorFlow (for MNIST)
+
+---
+
+## CUDA Note
+
+To enable CUDA:
+
+- Use a CUDA-supported GPU
+- Run on Google Colab (GPU runtime)
+- Uncomment `shape_context_cuda()` in feature extraction
+
+---
+
+## Future Improvements
+
+- Full EMNIST letter recognition
+- Hungarian matching for shape alignment
+- Fully GPU-based histogram computation
+- Rotation invariant normalization
+
+---
+
+## Author
+
+Your Name  
+B.Tech – Artificial Intelligence & Data Science  
+Dr. Shyama Prasad Mukherjee International Institute of Information Technology, Naya Raipur  
+
+---
+
+## License
+
+MIT License
