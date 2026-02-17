@@ -133,7 +133,7 @@ To enable CUDA:
 
 ## Author
 
-Your Name  
+Aparajita Vaish
 B.Tech – Artificial Intelligence & Data Science  
 Dr. Shyama Prasad Mukherjee International Institute of Information Technology, Naya Raipur  
 
